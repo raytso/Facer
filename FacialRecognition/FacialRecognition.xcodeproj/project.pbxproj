@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71004CE31BC7C07900BACC72 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004CE21BC7C07900BACC72 /* CameraViewController.swift */; };
+		715B1ACF1C0EE6D700B15DE3 /* AnalyzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B1ACE1C0EE6D700B15DE3 /* AnalyzerViewController.swift */; };
+		715B1AD11C0EE78300B15DE3 /* InputDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B1AD01C0EE78300B15DE3 /* InputDataViewController.swift */; };
+		719DD7781BD7C31B007BD672 /* FaceDetectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DD7771BD7C31B007BD672 /* FaceDetectedView.swift */; };
+		719FC9731BBDB7C600113E2B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719FC9721BBDB7C600113E2B /* opencv2.framework */; };
+		719FC9761BBDBB5100113E2B /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 719FC9751BBDBB5100113E2B /* UIImage+OpenCV.mm */; };
+		71A9C2721BCBB99200785D61 /* FaceDetectionWithCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A9C2711BCBB99200785D61 /* FaceDetectionWithCamera.swift */; };
+		71A9C2741BCBCBA400785D61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A9C2731BCBCBA300785D61 /* AVFoundation.framework */; };
 		71B12F6D1BBD56AE002BA8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B12F6C1BBD56AE002BA8B8 /* AppDelegate.swift */; };
 		71B12F6F1BBD56AE002BA8B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B12F6E1BBD56AE002BA8B8 /* ViewController.swift */; };
 		71B12F721BBD56AE002BA8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B12F701BBD56AE002BA8B8 /* Main.storyboard */; };
@@ -14,6 +22,73 @@
 		71B12F771BBD56AE002BA8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B12F751BBD56AE002BA8B8 /* LaunchScreen.storyboard */; };
 		71B12F821BBD56AE002BA8B8 /* FacialRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B12F811BBD56AE002BA8B8 /* FacialRecognitionTests.swift */; };
 		71B12F8D1BBD56AE002BA8B8 /* FacialRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B12F8C1BBD56AE002BA8B8 /* FacialRecognitionUITests.swift */; };
+		71B12FA71BBD9BA4002BA8B8 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71B12FA61BBD9BA4002BA8B8 /* OpenCVWrapper.mm */; };
+		71C7FB471BEB60E2003EF7C6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7FB461BEB60E2003EF7C6 /* StartViewController.swift */; };
+		71DAA5C01BC68A210026114F /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA57F1BC68A210026114F /* 1 */; };
+		71DAA5C11BC68A210026114F /* 2 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5801BC68A210026114F /* 2 */; };
+		71DAA5C21BC68A210026114F /* 3 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5811BC68A210026114F /* 3 */; };
+		71DAA5C31BC68A210026114F /* 4 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5821BC68A210026114F /* 4 */; };
+		71DAA5C41BC68A210026114F /* 5 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5831BC68A210026114F /* 5 */; };
+		71DAA5C51BC68A210026114F /* 6 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5841BC68A210026114F /* 6 */; };
+		71DAA5C61BC68A210026114F /* 7 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5851BC68A210026114F /* 7 */; };
+		71DAA5C71BC68A210026114F /* 8 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5861BC68A210026114F /* 8 */; };
+		71DAA5C81BC68A210026114F /* 9 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5871BC68A210026114F /* 9 */; };
+		71DAA5C91BC68A210026114F /* 10 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5881BC68A210026114F /* 10 */; };
+		71DAA5CA1BC68A210026114F /* 11 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5891BC68A210026114F /* 11 */; };
+		71DAA5CB1BC68A210026114F /* 12 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA58A1BC68A210026114F /* 12 */; };
+		71DAA5CC1BC68A210026114F /* 13 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA58B1BC68A210026114F /* 13 */; };
+		71DAA5CD1BC68A210026114F /* 14 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA58C1BC68A210026114F /* 14 */; };
+		71DAA5CE1BC68A210026114F /* 15 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA58D1BC68A210026114F /* 15 */; };
+		71DAA5CF1BC68A210026114F /* 16 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA58E1BC68A210026114F /* 16 */; };
+		71DAA5D01BC68A210026114F /* 17 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA58F1BC68A210026114F /* 17 */; };
+		71DAA5D11BC68A210026114F /* 18 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5901BC68A210026114F /* 18 */; };
+		71DAA5D21BC68A210026114F /* 19 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5911BC68A210026114F /* 19 */; };
+		71DAA5D31BC68A210026114F /* 20 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5921BC68A210026114F /* 20 */; };
+		71DAA5D41BC68A210026114F /* 21 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5931BC68A210026114F /* 21 */; };
+		71DAA5D51BC68A210026114F /* 22 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5941BC68A210026114F /* 22 */; };
+		71DAA5D61BC68A210026114F /* 23 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5951BC68A210026114F /* 23 */; };
+		71DAA5D71BC68A210026114F /* 24 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5961BC68A210026114F /* 24 */; };
+		71DAA5D81BC68A210026114F /* 25 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5971BC68A210026114F /* 25 */; };
+		71DAA5D91BC68A210026114F /* 26 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5981BC68A210026114F /* 26 */; };
+		71DAA5DA1BC68A210026114F /* 27 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5991BC68A210026114F /* 27 */; };
+		71DAA5DB1BC68A210026114F /* 28 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA59A1BC68A210026114F /* 28 */; };
+		71DAA5DC1BC68A210026114F /* 29 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA59B1BC68A210026114F /* 29 */; };
+		71DAA5DD1BC68A210026114F /* 30 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA59C1BC68A210026114F /* 30 */; };
+		71DAA5DE1BC68A210026114F /* 31 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA59D1BC68A210026114F /* 31 */; };
+		71DAA5DF1BC68A210026114F /* 32 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA59E1BC68A210026114F /* 32 */; };
+		71DAA5E01BC68A210026114F /* 33 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA59F1BC68A210026114F /* 33 */; };
+		71DAA5E11BC68A210026114F /* 34 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A01BC68A210026114F /* 34 */; };
+		71DAA5E21BC68A210026114F /* 35 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A11BC68A210026114F /* 35 */; };
+		71DAA5E31BC68A210026114F /* 36 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A21BC68A210026114F /* 36 */; };
+		71DAA5E41BC68A210026114F /* 37 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A31BC68A210026114F /* 37 */; };
+		71DAA5E51BC68A210026114F /* 38 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A41BC68A210026114F /* 38 */; };
+		71DAA5E61BC68A210026114F /* 39 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A51BC68A210026114F /* 39 */; };
+		71DAA5E71BC68A210026114F /* 40 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A61BC68A210026114F /* 40 */; };
+		71DAA5E81BC68A210026114F /* 41 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A71BC68A210026114F /* 41 */; };
+		71DAA5E91BC68A210026114F /* 42 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A81BC68A210026114F /* 42 */; };
+		71DAA5EA1BC68A210026114F /* 43 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5A91BC68A210026114F /* 43 */; };
+		71DAA5EB1BC68A210026114F /* 44 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5AA1BC68A210026114F /* 44 */; };
+		71DAA5EC1BC68A210026114F /* 45 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5AB1BC68A210026114F /* 45 */; };
+		71DAA5ED1BC68A210026114F /* 46 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5AC1BC68A210026114F /* 46 */; };
+		71DAA5EE1BC68A210026114F /* 47 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5AD1BC68A210026114F /* 47 */; };
+		71DAA5EF1BC68A210026114F /* 48 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5AE1BC68A210026114F /* 48 */; };
+		71DAA5F01BC68A210026114F /* 49 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5AF1BC68A210026114F /* 49 */; };
+		71DAA5F11BC68A210026114F /* 50 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B01BC68A210026114F /* 50 */; };
+		71DAA5F21BC68A210026114F /* 51 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B11BC68A210026114F /* 51 */; };
+		71DAA5F31BC68A210026114F /* 52 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B21BC68A210026114F /* 52 */; };
+		71DAA5F41BC68A210026114F /* 53 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B31BC68A210026114F /* 53 */; };
+		71DAA5F51BC68A210026114F /* 54 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B41BC68A210026114F /* 54 */; };
+		71DAA5F61BC68A210026114F /* 55 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B51BC68A210026114F /* 55 */; };
+		71DAA5F71BC68A210026114F /* 56 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B61BC68A210026114F /* 56 */; };
+		71DAA5F81BC68A210026114F /* 57 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B71BC68A210026114F /* 57 */; };
+		71DAA5F91BC68A210026114F /* 58 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B81BC68A210026114F /* 58 */; };
+		71DAA5FA1BC68A210026114F /* 59 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5B91BC68A210026114F /* 59 */; };
+		71DAA5FB1BC68A210026114F /* 60 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5BA1BC68A210026114F /* 60 */; };
+		71DAA5FC1BC68A210026114F /* 61 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5BB1BC68A210026114F /* 61 */; };
+		71DAA5FD1BC68A210026114F /* 62 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5BC1BC68A210026114F /* 62 */; };
+		71DAA5FE1BC68A210026114F /* 63 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5BD1BC68A210026114F /* 63 */; };
+		71DAA5FF1BC68A210026114F /* 64 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5BE1BC68A210026114F /* 64 */; };
+		71DAA6001BC68A210026114F /* 65 in Resources */ = {isa = PBXBuildFile; fileRef = 71DAA5BF1BC68A210026114F /* 65 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +109,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71004CE21BC7C07900BACC72 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		715B1ACE1C0EE6D700B15DE3 /* AnalyzerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzerViewController.swift; sourceTree = "<group>"; };
+		715B1AD01C0EE78300B15DE3 /* InputDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputDataViewController.swift; sourceTree = "<group>"; };
+		719DD7771BD7C31B007BD672 /* FaceDetectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectedView.swift; sourceTree = "<group>"; };
+		719FC9721BBDB7C600113E2B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../../../../Library/Frameworks/opencv2.framework; sourceTree = "<group>"; };
+		719FC9741BBDBAEC00113E2B /* UIImage+OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		719FC9751BBDBB5100113E2B /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		71A9C2711BCBB99200785D61 /* FaceDetectionWithCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionWithCamera.swift; sourceTree = "<group>"; };
+		71A9C2731BCBCBA300785D61 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		71B12F691BBD56AE002BA8B8 /* FacialRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacialRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B12F6C1BBD56AE002BA8B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B12F6E1BBD56AE002BA8B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +131,76 @@
 		71B12F881BBD56AE002BA8B8 /* FacialRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacialRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B12F8C1BBD56AE002BA8B8 /* FacialRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialRecognitionUITests.swift; sourceTree = "<group>"; };
 		71B12F8E1BBD56AE002BA8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B12FA21BBD97EA002BA8B8 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		71B12FA31BBD9B61002BA8B8 /* FacialRecognition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacialRecognition-Bridging-Header.h"; sourceTree = "<group>"; };
+		71B12FA61BBD9BA4002BA8B8 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		71C7889F1BBDC3880096D5CF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		71C7FB461BEB60E2003EF7C6 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		71DAA57F1BC68A210026114F /* 1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 1; sourceTree = "<group>"; };
+		71DAA5801BC68A210026114F /* 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 2; sourceTree = "<group>"; };
+		71DAA5811BC68A210026114F /* 3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 3; sourceTree = "<group>"; };
+		71DAA5821BC68A210026114F /* 4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 4; sourceTree = "<group>"; };
+		71DAA5831BC68A210026114F /* 5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 5; sourceTree = "<group>"; };
+		71DAA5841BC68A210026114F /* 6 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 6; sourceTree = "<group>"; };
+		71DAA5851BC68A210026114F /* 7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 7; sourceTree = "<group>"; };
+		71DAA5861BC68A210026114F /* 8 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 8; sourceTree = "<group>"; };
+		71DAA5871BC68A210026114F /* 9 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 9; sourceTree = "<group>"; };
+		71DAA5881BC68A210026114F /* 10 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 10; sourceTree = "<group>"; };
+		71DAA5891BC68A210026114F /* 11 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 11; sourceTree = "<group>"; };
+		71DAA58A1BC68A210026114F /* 12 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 12; sourceTree = "<group>"; };
+		71DAA58B1BC68A210026114F /* 13 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 13; sourceTree = "<group>"; };
+		71DAA58C1BC68A210026114F /* 14 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 14; sourceTree = "<group>"; };
+		71DAA58D1BC68A210026114F /* 15 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 15; sourceTree = "<group>"; };
+		71DAA58E1BC68A210026114F /* 16 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 16; sourceTree = "<group>"; };
+		71DAA58F1BC68A210026114F /* 17 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 17; sourceTree = "<group>"; };
+		71DAA5901BC68A210026114F /* 18 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 18; sourceTree = "<group>"; };
+		71DAA5911BC68A210026114F /* 19 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 19; sourceTree = "<group>"; };
+		71DAA5921BC68A210026114F /* 20 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 20; sourceTree = "<group>"; };
+		71DAA5931BC68A210026114F /* 21 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 21; sourceTree = "<group>"; };
+		71DAA5941BC68A210026114F /* 22 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 22; sourceTree = "<group>"; };
+		71DAA5951BC68A210026114F /* 23 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 23; sourceTree = "<group>"; };
+		71DAA5961BC68A210026114F /* 24 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 24; sourceTree = "<group>"; };
+		71DAA5971BC68A210026114F /* 25 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 25; sourceTree = "<group>"; };
+		71DAA5981BC68A210026114F /* 26 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 26; sourceTree = "<group>"; };
+		71DAA5991BC68A210026114F /* 27 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 27; sourceTree = "<group>"; };
+		71DAA59A1BC68A210026114F /* 28 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 28; sourceTree = "<group>"; };
+		71DAA59B1BC68A210026114F /* 29 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 29; sourceTree = "<group>"; };
+		71DAA59C1BC68A210026114F /* 30 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 30; sourceTree = "<group>"; };
+		71DAA59D1BC68A210026114F /* 31 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 31; sourceTree = "<group>"; };
+		71DAA59E1BC68A210026114F /* 32 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 32; sourceTree = "<group>"; };
+		71DAA59F1BC68A210026114F /* 33 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 33; sourceTree = "<group>"; };
+		71DAA5A01BC68A210026114F /* 34 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 34; sourceTree = "<group>"; };
+		71DAA5A11BC68A210026114F /* 35 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 35; sourceTree = "<group>"; };
+		71DAA5A21BC68A210026114F /* 36 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 36; sourceTree = "<group>"; };
+		71DAA5A31BC68A210026114F /* 37 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 37; sourceTree = "<group>"; };
+		71DAA5A41BC68A210026114F /* 38 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 38; sourceTree = "<group>"; };
+		71DAA5A51BC68A210026114F /* 39 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 39; sourceTree = "<group>"; };
+		71DAA5A61BC68A210026114F /* 40 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 40; sourceTree = "<group>"; };
+		71DAA5A71BC68A210026114F /* 41 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 41; sourceTree = "<group>"; };
+		71DAA5A81BC68A210026114F /* 42 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 42; sourceTree = "<group>"; };
+		71DAA5A91BC68A210026114F /* 43 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 43; sourceTree = "<group>"; };
+		71DAA5AA1BC68A210026114F /* 44 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 44; sourceTree = "<group>"; };
+		71DAA5AB1BC68A210026114F /* 45 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 45; sourceTree = "<group>"; };
+		71DAA5AC1BC68A210026114F /* 46 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 46; sourceTree = "<group>"; };
+		71DAA5AD1BC68A210026114F /* 47 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 47; sourceTree = "<group>"; };
+		71DAA5AE1BC68A210026114F /* 48 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 48; sourceTree = "<group>"; };
+		71DAA5AF1BC68A210026114F /* 49 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 49; sourceTree = "<group>"; };
+		71DAA5B01BC68A210026114F /* 50 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 50; sourceTree = "<group>"; };
+		71DAA5B11BC68A210026114F /* 51 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 51; sourceTree = "<group>"; };
+		71DAA5B21BC68A210026114F /* 52 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 52; sourceTree = "<group>"; };
+		71DAA5B31BC68A210026114F /* 53 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 53; sourceTree = "<group>"; };
+		71DAA5B41BC68A210026114F /* 54 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 54; sourceTree = "<group>"; };
+		71DAA5B51BC68A210026114F /* 55 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 55; sourceTree = "<group>"; };
+		71DAA5B61BC68A210026114F /* 56 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 56; sourceTree = "<group>"; };
+		71DAA5B71BC68A210026114F /* 57 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 57; sourceTree = "<group>"; };
+		71DAA5B81BC68A210026114F /* 58 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 58; sourceTree = "<group>"; };
+		71DAA5B91BC68A210026114F /* 59 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 59; sourceTree = "<group>"; };
+		71DAA5BA1BC68A210026114F /* 60 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 60; sourceTree = "<group>"; };
+		71DAA5BB1BC68A210026114F /* 61 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 61; sourceTree = "<group>"; };
+		71DAA5BC1BC68A210026114F /* 62 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 62; sourceTree = "<group>"; };
+		71DAA5BD1BC68A210026114F /* 63 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 63; sourceTree = "<group>"; };
+		71DAA5BE1BC68A210026114F /* 64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 64; sourceTree = "<group>"; };
+		71DAA5BF1BC68A210026114F /* 65 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 65; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +208,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A9C2741BCBCBA400785D61 /* AVFoundation.framework in Frameworks */,
+				719FC9731BBDB7C600113E2B /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +233,13 @@
 		71B12F601BBD56AE002BA8B8 = {
 			isa = PBXGroup;
 			children = (
+				71A9C2731BCBCBA300785D61 /* AVFoundation.framework */,
+				719FC9721BBDB7C600113E2B /* opencv2.framework */,
 				71B12F6B1BBD56AE002BA8B8 /* FacialRecognition */,
 				71B12F801BBD56AE002BA8B8 /* FacialRecognitionTests */,
 				71B12F8B1BBD56AE002BA8B8 /* FacialRecognitionUITests */,
 				71B12F6A1BBD56AE002BA8B8 /* Products */,
+				71B12FA31BBD9B61002BA8B8 /* FacialRecognition-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +256,24 @@
 		71B12F6B1BBD56AE002BA8B8 /* FacialRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				71DAA57E1BC689510026114F /* TrainingImages */,
 				71B12F6C1BBD56AE002BA8B8 /* AppDelegate.swift */,
 				71B12F6E1BBD56AE002BA8B8 /* ViewController.swift */,
+				71004CE21BC7C07900BACC72 /* CameraViewController.swift */,
+				719DD7771BD7C31B007BD672 /* FaceDetectedView.swift */,
+				71A9C2711BCBB99200785D61 /* FaceDetectionWithCamera.swift */,
+				71C7FB461BEB60E2003EF7C6 /* StartViewController.swift */,
+				715B1ACE1C0EE6D700B15DE3 /* AnalyzerViewController.swift */,
+				715B1AD01C0EE78300B15DE3 /* InputDataViewController.swift */,
 				71B12F701BBD56AE002BA8B8 /* Main.storyboard */,
 				71B12F731BBD56AE002BA8B8 /* Assets.xcassets */,
 				71B12F751BBD56AE002BA8B8 /* LaunchScreen.storyboard */,
 				71B12F781BBD56AE002BA8B8 /* Info.plist */,
+				71B12FA21BBD97EA002BA8B8 /* OpenCVWrapper.h */,
+				719FC9741BBDBAEC00113E2B /* UIImage+OpenCV.h */,
+				71C7889F1BBDC3880096D5CF /* PrefixHeader.pch */,
+				71B12FA61BBD9BA4002BA8B8 /* OpenCVWrapper.mm */,
+				719FC9751BBDBB5100113E2B /* UIImage+OpenCV.mm */,
 			);
 			path = FacialRecognition;
 			sourceTree = "<group>";
@@ -123,6 +294,78 @@
 				71B12F8E1BBD56AE002BA8B8 /* Info.plist */,
 			);
 			path = FacialRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		71DAA57E1BC689510026114F /* TrainingImages */ = {
+			isa = PBXGroup;
+			children = (
+				71DAA57F1BC68A210026114F /* 1 */,
+				71DAA5801BC68A210026114F /* 2 */,
+				71DAA5811BC68A210026114F /* 3 */,
+				71DAA5821BC68A210026114F /* 4 */,
+				71DAA5831BC68A210026114F /* 5 */,
+				71DAA5841BC68A210026114F /* 6 */,
+				71DAA5851BC68A210026114F /* 7 */,
+				71DAA5861BC68A210026114F /* 8 */,
+				71DAA5871BC68A210026114F /* 9 */,
+				71DAA5881BC68A210026114F /* 10 */,
+				71DAA5891BC68A210026114F /* 11 */,
+				71DAA58A1BC68A210026114F /* 12 */,
+				71DAA58B1BC68A210026114F /* 13 */,
+				71DAA58C1BC68A210026114F /* 14 */,
+				71DAA58D1BC68A210026114F /* 15 */,
+				71DAA58E1BC68A210026114F /* 16 */,
+				71DAA58F1BC68A210026114F /* 17 */,
+				71DAA5901BC68A210026114F /* 18 */,
+				71DAA5911BC68A210026114F /* 19 */,
+				71DAA5921BC68A210026114F /* 20 */,
+				71DAA5931BC68A210026114F /* 21 */,
+				71DAA5941BC68A210026114F /* 22 */,
+				71DAA5951BC68A210026114F /* 23 */,
+				71DAA5961BC68A210026114F /* 24 */,
+				71DAA5971BC68A210026114F /* 25 */,
+				71DAA5981BC68A210026114F /* 26 */,
+				71DAA5991BC68A210026114F /* 27 */,
+				71DAA59A1BC68A210026114F /* 28 */,
+				71DAA59B1BC68A210026114F /* 29 */,
+				71DAA59C1BC68A210026114F /* 30 */,
+				71DAA59D1BC68A210026114F /* 31 */,
+				71DAA59E1BC68A210026114F /* 32 */,
+				71DAA59F1BC68A210026114F /* 33 */,
+				71DAA5A01BC68A210026114F /* 34 */,
+				71DAA5A11BC68A210026114F /* 35 */,
+				71DAA5A21BC68A210026114F /* 36 */,
+				71DAA5A31BC68A210026114F /* 37 */,
+				71DAA5A41BC68A210026114F /* 38 */,
+				71DAA5A51BC68A210026114F /* 39 */,
+				71DAA5A61BC68A210026114F /* 40 */,
+				71DAA5A71BC68A210026114F /* 41 */,
+				71DAA5A81BC68A210026114F /* 42 */,
+				71DAA5A91BC68A210026114F /* 43 */,
+				71DAA5AA1BC68A210026114F /* 44 */,
+				71DAA5AB1BC68A210026114F /* 45 */,
+				71DAA5AC1BC68A210026114F /* 46 */,
+				71DAA5AD1BC68A210026114F /* 47 */,
+				71DAA5AE1BC68A210026114F /* 48 */,
+				71DAA5AF1BC68A210026114F /* 49 */,
+				71DAA5B01BC68A210026114F /* 50 */,
+				71DAA5B11BC68A210026114F /* 51 */,
+				71DAA5B21BC68A210026114F /* 52 */,
+				71DAA5B31BC68A210026114F /* 53 */,
+				71DAA5B41BC68A210026114F /* 54 */,
+				71DAA5B51BC68A210026114F /* 55 */,
+				71DAA5B61BC68A210026114F /* 56 */,
+				71DAA5B71BC68A210026114F /* 57 */,
+				71DAA5B81BC68A210026114F /* 58 */,
+				71DAA5B91BC68A210026114F /* 59 */,
+				71DAA5BA1BC68A210026114F /* 60 */,
+				71DAA5BB1BC68A210026114F /* 61 */,
+				71DAA5BC1BC68A210026114F /* 62 */,
+				71DAA5BD1BC68A210026114F /* 63 */,
+				71DAA5BE1BC68A210026114F /* 64 */,
+				71DAA5BF1BC68A210026114F /* 65 */,
+			);
+			name = TrainingImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +430,7 @@
 		71B12F611BBD56AE002BA8B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ray Tso";
 				TargetAttributes = {
@@ -231,8 +475,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DAA5E91BC68A210026114F /* 42 in Resources */,
+				71DAA5CB1BC68A210026114F /* 12 in Resources */,
+				71DAA5F21BC68A210026114F /* 51 in Resources */,
+				71DAA5DD1BC68A210026114F /* 30 in Resources */,
+				71DAA5DC1BC68A210026114F /* 29 in Resources */,
+				71DAA5D81BC68A210026114F /* 25 in Resources */,
+				71DAA5E61BC68A210026114F /* 39 in Resources */,
+				71DAA5C21BC68A210026114F /* 3 in Resources */,
+				71DAA5FA1BC68A210026114F /* 59 in Resources */,
 				71B12F771BBD56AE002BA8B8 /* LaunchScreen.storyboard in Resources */,
+				71DAA5C41BC68A210026114F /* 5 in Resources */,
+				71DAA5F41BC68A210026114F /* 53 in Resources */,
+				71DAA5DA1BC68A210026114F /* 27 in Resources */,
+				71DAA5FC1BC68A210026114F /* 61 in Resources */,
+				71DAA5FB1BC68A210026114F /* 60 in Resources */,
+				71DAA5EB1BC68A210026114F /* 44 in Resources */,
+				71DAA5F01BC68A210026114F /* 49 in Resources */,
+				71DAA5C11BC68A210026114F /* 2 in Resources */,
+				71DAA5C71BC68A210026114F /* 8 in Resources */,
+				71DAA5D21BC68A210026114F /* 19 in Resources */,
+				71DAA5C31BC68A210026114F /* 4 in Resources */,
+				71DAA5E11BC68A210026114F /* 34 in Resources */,
+				71DAA5C81BC68A210026114F /* 9 in Resources */,
+				71DAA5E81BC68A210026114F /* 41 in Resources */,
+				71DAA5D91BC68A210026114F /* 26 in Resources */,
+				71DAA5CD1BC68A210026114F /* 14 in Resources */,
 				71B12F741BBD56AE002BA8B8 /* Assets.xcassets in Resources */,
+				71DAA5E01BC68A210026114F /* 33 in Resources */,
+				71DAA5D61BC68A210026114F /* 23 in Resources */,
+				71DAA6001BC68A210026114F /* 65 in Resources */,
+				71DAA5D01BC68A210026114F /* 17 in Resources */,
+				71DAA5EF1BC68A210026114F /* 48 in Resources */,
+				71DAA5E41BC68A210026114F /* 37 in Resources */,
+				71DAA5C61BC68A210026114F /* 7 in Resources */,
+				71DAA5D11BC68A210026114F /* 18 in Resources */,
+				71DAA5C51BC68A210026114F /* 6 in Resources */,
+				71DAA5F61BC68A210026114F /* 55 in Resources */,
+				71DAA5ED1BC68A210026114F /* 46 in Resources */,
+				71DAA5D51BC68A210026114F /* 22 in Resources */,
+				71DAA5F11BC68A210026114F /* 50 in Resources */,
+				71DAA5CE1BC68A210026114F /* 15 in Resources */,
+				71DAA5EA1BC68A210026114F /* 43 in Resources */,
+				71DAA5FF1BC68A210026114F /* 64 in Resources */,
+				71DAA5F71BC68A210026114F /* 56 in Resources */,
+				71DAA5C01BC68A210026114F /* 1 in Resources */,
+				71DAA5FE1BC68A210026114F /* 63 in Resources */,
+				71DAA5D41BC68A210026114F /* 21 in Resources */,
+				71DAA5DF1BC68A210026114F /* 32 in Resources */,
+				71DAA5EE1BC68A210026114F /* 47 in Resources */,
+				71DAA5F31BC68A210026114F /* 52 in Resources */,
+				71DAA5DB1BC68A210026114F /* 28 in Resources */,
+				71DAA5C91BC68A210026114F /* 10 in Resources */,
+				71DAA5E51BC68A210026114F /* 38 in Resources */,
+				71DAA5FD1BC68A210026114F /* 62 in Resources */,
+				71DAA5F91BC68A210026114F /* 58 in Resources */,
+				71DAA5E71BC68A210026114F /* 40 in Resources */,
+				71DAA5CF1BC68A210026114F /* 16 in Resources */,
+				71DAA5EC1BC68A210026114F /* 45 in Resources */,
+				71DAA5F81BC68A210026114F /* 57 in Resources */,
+				71DAA5CA1BC68A210026114F /* 11 in Resources */,
+				71DAA5D71BC68A210026114F /* 24 in Resources */,
+				71DAA5DE1BC68A210026114F /* 31 in Resources */,
+				71DAA5E21BC68A210026114F /* 35 in Resources */,
+				71DAA5D31BC68A210026114F /* 20 in Resources */,
+				71DAA5F51BC68A210026114F /* 54 in Resources */,
+				71DAA5CC1BC68A210026114F /* 13 in Resources */,
+				71DAA5E31BC68A210026114F /* 36 in Resources */,
 				71B12F721BBD56AE002BA8B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +568,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B12F6F1BBD56AE002BA8B8 /* ViewController.swift in Sources */,
+				71C7FB471BEB60E2003EF7C6 /* StartViewController.swift in Sources */,
+				71A9C2721BCBB99200785D61 /* FaceDetectionWithCamera.swift in Sources */,
+				71004CE31BC7C07900BACC72 /* CameraViewController.swift in Sources */,
+				715B1ACF1C0EE6D700B15DE3 /* AnalyzerViewController.swift in Sources */,
 				71B12F6D1BBD56AE002BA8B8 /* AppDelegate.swift in Sources */,
+				719FC9761BBDBB5100113E2B /* UIImage+OpenCV.mm in Sources */,
+				71B12FA71BBD9BA4002BA8B8 /* OpenCVWrapper.mm in Sources */,
+				719DD7781BD7C31B007BD672 /* FaceDetectedView.swift in Sources */,
+				715B1AD11C0EE78300B15DE3 /* InputDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +718,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FacialRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raytso.FacialRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacialRecognition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +738,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = FacialRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raytso.FacialRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacialRecognition-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +820,7 @@
 				71B12F931BBD56AE002BA8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B12F941BBD56AE002BA8B8 /* Build configuration list for PBXNativeTarget "FacialRecognitionTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +829,7 @@
 				71B12F961BBD56AE002BA8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B12F971BBD56AE002BA8B8 /* Build configuration list for PBXNativeTarget "FacialRecognitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +838,7 @@
 				71B12F991BBD56AE002BA8B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
