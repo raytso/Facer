@@ -12,11 +12,19 @@
 #endif /* OpenCVWrapper_h */
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
 
 @interface OpenCVWrapper : NSObject
 
-    + (UIImage *)processImageWithOpenCV:(UIImage*)inputImage;
+
+//@property cv::Mat eigenValues;
+//@property(nonatomic, readonly) cv::Mat trainingMat;
+//@property NSArray* meanArray;
+
+
++ (UIImage *)processImageWithPCA:(UIImage *)inputImage
+                            flag:(BOOL)isDataTrained;
+//- (NSArray *)trainData:(NSArray *) trainingDataSet;
+//- (std::vector<cv::Mat>)prepareTrainingDataCell: (NSString*)folderPath: (int)classSize: (NSArray*)trainingDataSet;
 
 
 @end

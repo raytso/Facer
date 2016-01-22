@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		71004CE31BC7C07900BACC72 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71004CE21BC7C07900BACC72 /* CameraViewController.swift */; };
+		712553ED1C50D4A9005CC8BD /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712553E81C50C7D5005CC8BD /* opencv2.framework */; };
+		712553EE1C50D69D005CC8BD /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712553E81C50C7D5005CC8BD /* opencv2.framework */; };
+		712553F11C50D6ED005CC8BD /* ImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 712553EF1C50D6ED005CC8BD /* ImageProcessing.mm */; };
 		715B1ACF1C0EE6D700B15DE3 /* AnalyzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B1ACE1C0EE6D700B15DE3 /* AnalyzerViewController.swift */; };
 		715B1AD11C0EE78300B15DE3 /* InputDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B1AD01C0EE78300B15DE3 /* InputDataViewController.swift */; };
+		717405061C23CFD700510438 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717405051C23CFD700510438 /* OptionsViewController.swift */; };
 		719DD7781BD7C31B007BD672 /* FaceDetectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719DD7771BD7C31B007BD672 /* FaceDetectedView.swift */; };
-		719FC9731BBDB7C600113E2B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719FC9721BBDB7C600113E2B /* opencv2.framework */; };
 		719FC9761BBDBB5100113E2B /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 719FC9751BBDBB5100113E2B /* UIImage+OpenCV.mm */; };
 		71A9C2721BCBB99200785D61 /* FaceDetectionWithCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A9C2711BCBB99200785D61 /* FaceDetectionWithCamera.swift */; };
-		71A9C2741BCBCBA400785D61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A9C2731BCBCBA300785D61 /* AVFoundation.framework */; };
+		71A9C2741BCBCBA400785D61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A9C2731BCBCBA300785D61 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		71B12F6D1BBD56AE002BA8B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B12F6C1BBD56AE002BA8B8 /* AppDelegate.swift */; };
 		71B12F6F1BBD56AE002BA8B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B12F6E1BBD56AE002BA8B8 /* ViewController.swift */; };
 		71B12F721BBD56AE002BA8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B12F701BBD56AE002BA8B8 /* Main.storyboard */; };
@@ -110,10 +113,13 @@
 
 /* Begin PBXFileReference section */
 		71004CE21BC7C07900BACC72 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		712553E81C50C7D5005CC8BD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../../../[NCUCS] Research Project/openCV/opencv2.framework"; sourceTree = "<group>"; };
+		712553EF1C50D6ED005CC8BD /* ImageProcessing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessing.mm; sourceTree = "<group>"; };
+		712553F01C50D6ED005CC8BD /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
 		715B1ACE1C0EE6D700B15DE3 /* AnalyzerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzerViewController.swift; sourceTree = "<group>"; };
 		715B1AD01C0EE78300B15DE3 /* InputDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputDataViewController.swift; sourceTree = "<group>"; };
+		717405051C23CFD700510438 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		719DD7771BD7C31B007BD672 /* FaceDetectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectedView.swift; sourceTree = "<group>"; };
-		719FC9721BBDB7C600113E2B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../../../../Library/Frameworks/opencv2.framework; sourceTree = "<group>"; };
 		719FC9741BBDBAEC00113E2B /* UIImage+OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		719FC9751BBDBB5100113E2B /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 		71A9C2711BCBB99200785D61 /* FaceDetectionWithCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionWithCamera.swift; sourceTree = "<group>"; };
@@ -208,8 +214,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712553EE1C50D69D005CC8BD /* opencv2.framework in Frameworks */,
 				71A9C2741BCBCBA400785D61 /* AVFoundation.framework in Frameworks */,
-				719FC9731BBDB7C600113E2B /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,17 +230,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712553ED1C50D4A9005CC8BD /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7108FA2A1C0EFAF4004B43E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				717405051C23CFD700510438 /* OptionsViewController.swift */,
+				715B1ACE1C0EE6D700B15DE3 /* AnalyzerViewController.swift */,
+				71004CE21BC7C07900BACC72 /* CameraViewController.swift */,
+				71B12F6E1BBD56AE002BA8B8 /* ViewController.swift */,
+				71C7FB461BEB60E2003EF7C6 /* StartViewController.swift */,
+				715B1AD01C0EE78300B15DE3 /* InputDataViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7108FA2B1C0EFB01004B43E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71A9C2711BCBB99200785D61 /* FaceDetectionWithCamera.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7108FA2C1C0EFB0C004B43E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				719DD7771BD7C31B007BD672 /* FaceDetectedView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		71B12F601BBD56AE002BA8B8 = {
 			isa = PBXGroup;
 			children = (
+				712553E81C50C7D5005CC8BD /* opencv2.framework */,
 				71A9C2731BCBCBA300785D61 /* AVFoundation.framework */,
-				719FC9721BBDB7C600113E2B /* opencv2.framework */,
 				71B12F6B1BBD56AE002BA8B8 /* FacialRecognition */,
 				71B12F801BBD56AE002BA8B8 /* FacialRecognitionTests */,
 				71B12F8B1BBD56AE002BA8B8 /* FacialRecognitionUITests */,
@@ -256,24 +292,22 @@
 		71B12F6B1BBD56AE002BA8B8 /* FacialRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				7108FA2C1C0EFB0C004B43E9 /* Views */,
+				7108FA2B1C0EFB01004B43E9 /* Model */,
+				7108FA2A1C0EFAF4004B43E9 /* Controllers */,
 				71DAA57E1BC689510026114F /* TrainingImages */,
 				71B12F6C1BBD56AE002BA8B8 /* AppDelegate.swift */,
-				71B12F6E1BBD56AE002BA8B8 /* ViewController.swift */,
-				71004CE21BC7C07900BACC72 /* CameraViewController.swift */,
-				719DD7771BD7C31B007BD672 /* FaceDetectedView.swift */,
-				71A9C2711BCBB99200785D61 /* FaceDetectionWithCamera.swift */,
-				71C7FB461BEB60E2003EF7C6 /* StartViewController.swift */,
-				715B1ACE1C0EE6D700B15DE3 /* AnalyzerViewController.swift */,
-				715B1AD01C0EE78300B15DE3 /* InputDataViewController.swift */,
 				71B12F701BBD56AE002BA8B8 /* Main.storyboard */,
 				71B12F731BBD56AE002BA8B8 /* Assets.xcassets */,
 				71B12F751BBD56AE002BA8B8 /* LaunchScreen.storyboard */,
 				71B12F781BBD56AE002BA8B8 /* Info.plist */,
 				71B12FA21BBD97EA002BA8B8 /* OpenCVWrapper.h */,
-				719FC9741BBDBAEC00113E2B /* UIImage+OpenCV.h */,
-				71C7889F1BBDC3880096D5CF /* PrefixHeader.pch */,
 				71B12FA61BBD9BA4002BA8B8 /* OpenCVWrapper.mm */,
+				712553F01C50D6ED005CC8BD /* ImageProcessing.h */,
+				712553EF1C50D6ED005CC8BD /* ImageProcessing.mm */,
+				719FC9741BBDBAEC00113E2B /* UIImage+OpenCV.h */,
 				719FC9751BBDBB5100113E2B /* UIImage+OpenCV.mm */,
+				71C7889F1BBDC3880096D5CF /* PrefixHeader.pch */,
 			);
 			path = FacialRecognition;
 			sourceTree = "<group>";
@@ -568,10 +602,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B12F6F1BBD56AE002BA8B8 /* ViewController.swift in Sources */,
+				717405061C23CFD700510438 /* OptionsViewController.swift in Sources */,
 				71C7FB471BEB60E2003EF7C6 /* StartViewController.swift in Sources */,
 				71A9C2721BCBB99200785D61 /* FaceDetectionWithCamera.swift in Sources */,
 				71004CE31BC7C07900BACC72 /* CameraViewController.swift in Sources */,
 				715B1ACF1C0EE6D700B15DE3 /* AnalyzerViewController.swift in Sources */,
+				712553F11C50D6ED005CC8BD /* ImageProcessing.mm in Sources */,
 				71B12F6D1BBD56AE002BA8B8 /* AppDelegate.swift in Sources */,
 				719FC9761BBDBB5100113E2B /* UIImage+OpenCV.mm in Sources */,
 				71B12FA71BBD9BA4002BA8B8 /* OpenCVWrapper.mm in Sources */,
@@ -780,8 +816,10 @@
 		71B12F981BBD56AE002BA8B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				INFOPLIST_FILE = FacialRecognitionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raytso.FacialRecognitionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = FacialRecognition;
@@ -792,8 +830,10 @@
 		71B12F991BBD56AE002BA8B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				INFOPLIST_FILE = FacialRecognitionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raytso.FacialRecognitionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = FacialRecognition;

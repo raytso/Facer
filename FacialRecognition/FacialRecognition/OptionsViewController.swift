@@ -1,34 +1,22 @@
 //
-//  AnalyzerViewController.swift
+//  OptionsViewController.swift
 //  FacialRecognition
 //
-//  Created by Ray Tso on 12/2/15.
+//  Created by Ray Tso on 12/18/15.
 //  Copyright © 2015 Ray Tso. All rights reserved.
 //
 
 import UIKit
 
-class AnalyzerViewController: UIViewController {
-    
-    var imageToBeAnalyzed: UIImage?
-    var trainedData: NSArray?
-//    private var 
-//    private let openCV: OpenCVWrapper
-    
-//    init() {
-//        
-//    }
+class OptionsViewController: UIViewController {
 
+    @IBAction func trainData(sender: UIButton) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        imageToBeAnalyzed = UIImage(named: "10/4.bmp")
-        
-        OpenCVWrapper.processImageWithPCA(imageToBeAnalyzed, flag: false)
-        
-        
-//        OpenCVWrapper.processImageWithPCA(imageToBeAnalyzed!)
-    
+
         // Do any additional setup after loading the view.
     }
 
